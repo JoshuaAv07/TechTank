@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { translations } from './translations.js'
 
 // LinkedIn Icon Component
 const LinkedInIcon = ({ className }) => (
@@ -60,11 +61,35 @@ const CloseIcon = () => (
   </svg>
 )
 
+// Language Switcher Component
+const LanguageSwitcher = ({ currentLang, onChange }) => (
+  <div className="language-switcher">
+    <button 
+      className={currentLang === 'en' ? 'active' : ''}
+      onClick={() => onChange('en')}
+    >
+      EN
+    </button>
+    <button 
+      className={currentLang === 'es' ? 'active' : ''}
+      onClick={() => onChange('es')}
+    >
+      ES
+    </button>
+    <button 
+      className={currentLang === 'fr' ? 'active' : ''}
+      onClick={() => onChange('fr')}
+    >
+      FR
+    </button>
+  </div>
+)
+
 // Contact Component
-const Contact = () => (
+const Contact = ({ t }) => (
   <section id="contact" className="contact">
     <div className="container">
-      <h2 className="section-title">Contact Us</h2>
+      <h2 className="section-title">{t.contact.title}</h2>
       <div className="contact-content">
         <div className="contact-info">
           <div className="contact-person">
@@ -75,7 +100,7 @@ const Contact = () => (
               <h3>Joshua Avilés</h3>
               <p className="contact-title">B.S. Development and Management of Software</p>
               <p className="contact-title">Technological University of Chihuahua BIS</p>
-              <p className="contact-role">General Director</p>
+              <p className="contact-role">{t.contact.role}</p>
               <div className="contact-links">
                 <a href="mailto:07020alexis@gmail.com" className="contact-link" target="_blank" rel="noopener noreferrer">
                   <span>07020alexis@gmail.com</span>
@@ -94,17 +119,9 @@ const Contact = () => (
           </div>
         </div>
         <div className="contact-message">
-          <h3>Get in Touch</h3>
-          <p>
-            Have questions about our research or want to collaborate? 
-            Reach out to Joshua Avilés, our contact representative, 
-            who can connect you with the right team member or provide 
-            information about our current projects and initiatives.
-          </p>
-          <p>
-            We welcome partnerships with academic institutions, 
-            government agencies, and industry leaders across the North American ecosystem.
-          </p>
+          <h3>{t.contact.getInTouch}</h3>
+          <p>{t.contact.message1}</p>
+          <p>{t.contact.message2}</p>
         </div>
       </div>
     </div>
@@ -366,6 +383,7 @@ const articles = [
 
 function App() {
   const [selectedArticle, setSelectedArticle] = useState(null)
+  const [language, setLanguage] = useState('en')
 
   const handleArticleClick = (article) => {
     setSelectedArticle(article)
@@ -374,6 +392,8 @@ function App() {
   const handleCloseArticle = () => {
     setSelectedArticle(null)
   }
+
+  const t = translations[language]
 
   return (
     <div className="app">
@@ -384,21 +404,23 @@ function App() {
             <h1 className="logo">TechTank Foundation</h1>
             <p className="tagline">Innovation • Education • Policy</p>
           </div>
-          <nav className="nav">
-            <a href="#about">About</a>
-            <a href="#articles">Articles</a>
-            <a href="#contact">Contact</a>
-          </nav>
+          <div className="header-right">
+            <nav className="nav">
+              <a href="#about">{t.nav.about}</a>
+              <a href="#articles">{t.nav.articles}</a>
+              <a href="#contact">{t.nav.contact}</a>
+            </nav>
+            <LanguageSwitcher currentLang={language} onChange={setLanguage} />
+          </div>
         </div>
       </header>
 
       {/* Hero Section */}
       <section className="hero">
         <div className="container">
-          <h2 className="hero-title">Advancing Tech Innovation Across North America</h2>
+          <h2 className="hero-title">{t.hero.title}</h2>
           <p className="hero-subtitle">
-            An technologic think tank dedicated to fostering innovation, 
-            education, and policy excellence in technology..
+            {t.hero.subtitle}
           </p>
         </div>
       </section>
@@ -406,21 +428,10 @@ function App() {
       {/* About Section */}
       <section id="about" className="about">
         <div className="container">
-          <h2 className="section-title">About TechTank</h2>
+          <h2 className="section-title">{t.about.title}</h2>
           <div className="about-content">
-            <p>
-              TechTank is a leading think tank focused on technology, innovation, 
-              and education policy from Chihuahua's innovative ecosystem. We bring together 
-              experts, researchers, and young promises to analyze emerging trends, 
-              develop evidence-based recommendations, and foster cross-border 
-              collaboration.
-            </p>
-            <p>
-              Our mission is to bridge the gap between technological innovation,  
-              educational practices and the existing entrepreneurship ecosystem to have a 
-              solid communication and extend the reach, while promoting 
-              inclusive growth and education.
-            </p>
+            <p>{t.about.text1}</p>
+            <p>{t.about.text2}</p>
           </div>
         </div>
       </section>
@@ -428,7 +439,7 @@ function App() {
       {/* Articles Section */}
       <section id="articles" className="articles">
         <div className="container">
-          <h2 className="section-title">Featured Articles</h2>
+          <h2 className="section-title">{t.articles.title}</h2>
           <div className="articles-grid">
             {articles.map(article => (
               <ArticleCard key={article.id} article={article} onClick={handleArticleClick} />
@@ -438,13 +449,13 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <Contact />
+      <Contact t={t} />
 
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2024 TechTank. All rights reserved.</p>
-          <p className="footer-subtitle">United States • Mexico • Canada</p>
+          <p>{t.footer.copyright}</p>
+          <p className="footer-subtitle">{t.footer.locations}</p>
         </div>
       </footer>
 
