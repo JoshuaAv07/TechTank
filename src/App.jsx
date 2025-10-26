@@ -103,8 +103,7 @@ const Contact = () => (
           </p>
           <p>
             We welcome partnerships with academic institutions, 
-            government agencies, and industry leaders across 
-            the USMCA region.
+            government agencies, and industry leaders across the North American ecosystem.
           </p>
         </div>
       </div>
@@ -156,7 +155,7 @@ const articles = [
     title: "",
     excerpt: "",
     category: "Technology",
-    date: "October 26, 2025",
+    date: "Oct 26, 2025",
     author: {
       name: "Manuel Sandoval",
       title: "MASc Student at the Concordia University",
@@ -176,7 +175,7 @@ const articles = [
     title: "",
     excerpt: "",
     category: "Innovation, Education",
-    date: "March 10, 2024",
+    date: "Mar 10, 2024",
     author: {
       name: "Nancy Ruíz",
       title: "",
@@ -216,7 +215,7 @@ const articles = [
     title: "Cybersecurity in México and the Future: A Remark by Alejandro Rodriguez",
     excerpt: "In recent years, cyberattacks have surged worldwide, overwhelming governments, private companies, and critical infrastructure worldwide.",
     category: "Technology",
-    date: "October 24, 2025",
+    date: "Oct 24, 2025",
     author: {
       name: "Alejandro Rodríguez",
       title: "B.S. Student at the Politechnic University of Yucatán",
@@ -277,10 +276,10 @@ const articles = [
   },
   {
     id: 5,
-    title: "USMCA: Experimenting Regional Innovation and Integration in North America",
-    excerpt: "Positioned between northern trade corridors and central agricultural regions, Chihuahua offers both geographic connectivity and institutional flexibility—two critical ingredients for a successful pilot region.",
-    category: "Policy Analysis",
-    date: "October 22, 2025",
+    title: "Chihuahua: Building a Global Innovation Ecosystem through Talent",
+    excerpt: "Positioned between northern trade corridors and central agricultural regions, Chihuahua offers both geographic connectivity and...",
+    category: "Geopolitics",
+    date: "Oct 22, 2025",
     author: {
       name: "Joshua Avilés",
       title: "B.S. Graduate from the Technological University of Chihuahua BIS",
@@ -290,43 +289,22 @@ const articles = [
     content: (
       <div>
         <p>
-          The USMCA Test Zones initiative draws inspiration from China’s Special Economic Zones 
-          (SEZs), territories designed as laboratories for reform and innovation before nationwide application. 
-          Just as China’s zones transformed underdeveloped areas into engines of modernization, 
-          North America can adopt a similar philosophy of territorial experimentation to foster regional 
-          growth and cross-border collaboration.
+          Chihuahua’s innovation and entrepreneurship ecosystem has undergone a profound transformation in recent years. The region has established itself as a dynamic hub where academia, government, and industry converge to shape a future driven by technology, sustainability, and global collaboration. The collective efforts of initiatives such as Startup Chihuahua, Chihuahua Futura, and Escuelita Maker have laid the groundwork for an environment that fosters creativity, business formation, and the training of high-impact talent.
         </p>
         <p>
-          Within this framework, Chihuahua emerges as Mexico’s ideal candidate for a test zone. It is a 
-          region where industrial, agricultural, and academic capacities intersect, allowing innovation 
-          to emerge without relying on major metropolitan centers. Positioned between northern trade 
-          corridors and central agricultural regions, Chihuahua offers geographic connectivity and 
-          institutional flexibility, making it suitable for piloting initiatives in renewable energy, 
-          agri-tech, logistics, and workforce development.
+          Startup Chihuahua acts as the connective tissue of the local entrepreneurial community, facilitating networking, incubation, and acceleration for early-stage ventures. Chihuahua Futura extends this vision toward the city’s long-term development, integrating innovation into urban planning and positioning the city as a testbed for smart and sustainable technologies. Escuelita Maker complements these efforts by empowering young creators and technologists, introducing them to design thinking, prototyping, and problem-solving in an inclusive and accessible setting.
         </p>
         <p>
-          In the United States, participation may be uneven due to political complexity and regional 
-          variability in trade policy. Shifts in federal priorities, protectionist tendencies, and 
-          competing state interests could limit engagement. Regions such as southern New Mexico or 
-          western Texas, however, could serve as natural U.S. partners. These areas share scale and 
-          economic characteristics compatible with Chihuahua, providing opportunities for binational 
-          collaboration in renewable energy, digital logistics, and cross-border workforce training, 
-          while leaving room for flexibility if broader federal support is limited.
+          The region’s emerging specialization in strategic sectors such as semiconductors and artificial intelligence has been strengthened through international collaborations. The semiconductor and AI training program in partnership with Taiwan exemplifies how Chihuahua is building bridges with global technology leaders. At the same time, the participation of local talent in initiatives such as the 200s Programs in Washington D.C., the AI Program in Arizona, and the UTCH Business Program in Wuhan, China, reinforces a vision of global integration. These experiences not only expand technical capabilities but also cultivate a generation of bilingual and multicultural entrepreneurs capable of competing in international markets.
         </p>
         <p>
-          Canada could contribute through its prairie provinces, leveraging expertise in agriculture, 
-          energy, and rural innovation. Together with Chihuahua and selected U.S. regions, these areas 
-          could form a network of distributed test zones, each governed locally but aligned on shared 
-          principles of experimentation, sustainability, and knowledge exchange.
+          Institutions such as ICATECH have also aligned with global leaders like MIT through workshops and the MIT REAP program, bringing world-class innovation methodologies to the local context. These efforts are complemented by the continuous development of SMEs and regional forums that promote the exchange of knowledge and investment, strengthening the bridge between academic research, industrial application, and social impact.
         </p>
         <p>
-          In conclusion, the USMCA Test Zones illustrate how North America can pursue integration through 
-          smaller, underutilized regions, testing innovation in energy, technology, agriculture, and 
-          workforce development. Inspired by China’s SEZs, these pilot areas act as laboratories for 
-          sustainable and inclusive growth, showing that regionally tailored experimentation can guide 
-          broader continental strategies. Even if U.S. participation is limited, Mexico and Canada can 
-          still advance meaningful regional cooperation, highlighting the resilience and adaptability of 
-          this experimental approach.
+          The ecosystem’s future lies in its ability to consolidate a collaborative network that connects each of these actors into a coherent strategy. Chihuahua must continue fostering environments where ideas can mature into companies, where talent can find purpose through innovation, and where local initiatives can engage with global value chains. This evolution requires not only technological infrastructure but also a vision that aligns educational programs, industrial needs, and international partnerships into a shared roadmap.
+        </p>
+        <p>
+          In this vision, talent becomes the most strategic resource. The integration of global programs, local educational innovation, and a strong entrepreneurial spirit can transform Chihuahua into a model of regional development led by human capital. The state’s ongoing commitment to research, digitalization, and global connectivity suggests a future where Chihuahua is not only a center of production but also a center of creation — an ecosystem capable of exporting ideas, technology, and talent to the world.
         </p>
       </div>
     )
@@ -336,7 +314,7 @@ const articles = [
     title: "How an internship program abroad can change the ideas for your future",
     excerpt: "1. Find the impact you want to make on others. \n 2. Align it to your personal and professional interests. \n3. Act.",
     category: "Academic Mobility",
-    date: "October 25, 2025",
+    date: "Oct 25, 2025",
     author: {
       name: "Derek Alvarado",
       title: "B.S. Graduate from the Technological University of Chihuahua BIS",
@@ -403,7 +381,7 @@ function App() {
       <header className="header">
         <div className="container">
           <div className="logo-section">
-            <h1 className="logo">TechTank</h1>
+            <h1 className="logo">TechTank Foundation</h1>
             <p className="tagline">Innovation • Education • Policy</p>
           </div>
           <nav className="nav">
@@ -419,9 +397,8 @@ function App() {
         <div className="container">
           <h2 className="hero-title">Advancing Tech Innovation Across North America</h2>
           <p className="hero-subtitle">
-            A USMCA-focused think tank dedicated to fostering innovation, 
-            education, and policy excellence in technology across the United States, 
-            Mexico, and Canada.
+            An technologic think tank dedicated to fostering innovation, 
+            education, and policy excellence in technology..
           </p>
         </div>
       </section>
@@ -433,15 +410,15 @@ function App() {
           <div className="about-content">
             <p>
               TechTank is a leading think tank focused on technology, innovation, 
-              and education policy across the USMCA region. We bring together 
-              experts, researchers, and policymakers to analyze emerging trends, 
+              and education policy from Chihuahua's innovative ecosystem. We bring together 
+              experts, researchers, and young promises to analyze emerging trends, 
               develop evidence-based recommendations, and foster cross-border 
               collaboration.
             </p>
             <p>
-              Our mission is to bridge the gap between technological innovation 
-              and policy implementation, ensuring that North America remains at 
-              the forefront of the global digital economy while promoting 
+              Our mission is to bridge the gap between technological innovation,  
+              educational practices and the existing entrepreneurship ecosystem to have a 
+              solid communication and extend the reach, while promoting 
               inclusive growth and education.
             </p>
           </div>
