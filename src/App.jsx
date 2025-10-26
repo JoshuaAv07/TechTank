@@ -175,7 +175,7 @@ const articles = [
     date: "Mar 10, 2024",
     author: {
       name: "Nancy Ruíz",
-      title: "",
+      title: "M.D. Graduate, University of Guanajuato",
       initials: "NR",
       linkedin: "https://linkedin.com/in/nancy-ruiz-dominguez"
     },
