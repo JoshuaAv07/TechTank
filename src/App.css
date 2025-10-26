@@ -331,6 +331,7 @@
 .contact-links {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .contact-link {
@@ -565,6 +566,29 @@
     font-size: 2rem;
     margin: 0 auto;
   }
+
+  .contact-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-link {
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .contact-details {
+    width: 100%;
+  }
+
+  .contact-title {
+    font-size: 0.9rem;
+  }
+
+  .contact-details h3 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -590,5 +614,32 @@
 
   .article-detail-body h3 {
     font-size: 1.25rem;
+  }
+
+  .contact-avatar {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+
+  .contact-details h3 {
+    font-size: 1.25rem;
+  }
+
+  .contact-title {
+    font-size: 0.85rem;
+  }
+
+  .contact-link {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .contact-message h3 {
+    font-size: 1.25rem;
+  }
+
+  .contact-message p {
+    font-size: 0.95rem;
   }
 }
