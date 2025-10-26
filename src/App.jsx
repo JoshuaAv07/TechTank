@@ -171,26 +171,6 @@ const articles = [
     id: 1,
     title: "",
     excerpt: "",
-    category: "Technology",
-    date: "Oct 26, 2025",
-    author: {
-      name: "Manuel Sandoval",
-      title: "MASc Student at the Concordia University",
-      initials: "MS",
-      linkedin: "https://www.linkedin.com/in/manuel-sandoval-eng"
-    },
-    content: (
-      <div>
-        <p>
-          
-        </p>
-      </div>
-    )
-  },
-  {
-    id: 2,
-    title: "",
-    excerpt: "",
     category: "Innovation, Education",
     date: "Mar 10, 2024",
     author: {
@@ -208,27 +188,7 @@ const articles = [
     )
   },
   {
-    id: 3,
-    title: "",
-    excerpt: "",
-    category: "Academic Mobility",
-    date: "Oct 25, 2025",
-    author: {
-      name: "Valentina Orozco",
-      title: "",
-      initials: "VO",
-      linkedin: "https://linkedin.com/in/lvalentinaorozcob"
-    },
-    content: (
-      <div>
-        <p>
-          
-        </p>
-      </div>
-    )
-  },
-  {
-    id: 4,
+    id: 2,
     title: "Cybersecurity in México and the Future: A Remark by Alejandro Rodriguez",
     excerpt: "In recent years, cyberattacks have surged worldwide, overwhelming governments, private companies, and critical infrastructure worldwide.",
     category: "Technology",
@@ -292,7 +252,7 @@ const articles = [
     )
   },
   {
-    id: 5,
+    id: 3,
     title: "Chihuahua: Building a Global Innovation Ecosystem through Talent",
     excerpt: "Positioned between northern trade corridors and central agricultural regions, Chihuahua offers both geographic connectivity and...",
     category: "Geopolitics",
@@ -327,7 +287,7 @@ const articles = [
     )
   },
   {
-    id: 6,
+    id: 4,
     title: "How an internship program abroad can change the ideas for your future",
     excerpt: "1. Find the impact you want to make on others. \n 2. Align it to your personal and professional interests. \n3. Act.",
     category: "Academic Mobility",
