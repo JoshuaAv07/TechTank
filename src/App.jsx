@@ -169,9 +169,9 @@ const ArticleDetail = ({ article, onClose }) => (
 const articles = [
   {
     id: 1,
-    title: "",
-    excerpt: "",
-    category: "Innovation, Education",
+    title: "Impact of Mitacs Globalink Research Internship in Emerging Clinicians",
+    excerpt: "I was particularly inspired by the master’s and PhD students, all of whom were women leading their projects with remarkable dedication...",
+    category: "Research",
     date: "Mar 10, 2024",
     author: {
       name: "Nancy Ruíz",
@@ -182,7 +182,16 @@ const articles = [
     content: (
       <div>
         <p>
-
+          Being awarded the Mitacs Globalink Research Internship in 2023 was a transformative experience that significantly contributed to my professional growth. During that summer, I joined the Oweida Lab (Radioimmunobiology Lab) at the Université de Sherbrooke, where I participated in projects investigating the role of radiotherapy and immune regulation in lung, head, and neck cancers. Although it wasn’t my first time working in a lab, it allowed me to deepen my understanding of how basic science can inform and guide clinical decisions.
+        </p>
+        <p>
+          Working alongside graduate students and faculty, I learned to navigate the rhythm of scientific research, from troubleshooting experiments to interpreting results with precision and patience. The experience strengthened my technical and analytical skills, but more importantly, it taught me the value of perseverance and collaboration.
+        </p>
+        <p>
+          Living and working in a different country also broadened my perspective. I was particularly inspired by the master’s and PhD students, all of whom were women leading their projects with remarkable dedication and confidence. Being surrounded by skilled female scientists and by a principal investigator who fostered an environment of respect and mentorship showed me the importance of representation and supportive leadership in research.
+        </p>
+        <p>
+          Now, as I complete my medical degree with a social service internship at the HIV Clinic of the Instituto Nacional de Ciencias Médicas y Nutrición “Salvador Zubirán,” where I focus mainly on clinical and epidemiological research, I continue to apply what I learned through the Mitacs program, bridging clinical practice with scientific inquiry. This experience solidified my interest in academic medicine and inspired my path toward a medical residency in Internal Medicine next year.
         </p>
       </div>
     )
