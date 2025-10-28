@@ -353,7 +353,7 @@ const articles = [
     title: "From Local Tests to National Transformation: The Strategic Logic Behind China’s Special Economic Zones",
     excerpt: "Concentrating the initial experiments in this southern cluster allowed...",
     category: "Geopolitics",
-    date: "Oct 28, 2025",
+    date: "Oct 27, 2025",
     author: {
       name: "Joshua Avilés",
       title: "B.S. Graduate from the Technological University of Chihuahua BIS",
