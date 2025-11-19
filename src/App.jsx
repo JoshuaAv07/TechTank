@@ -411,7 +411,111 @@ const articles = [
         </p>
       </div>
     )
-  }
+  },
+  {
+    id: 7,
+    title: "Reflection: Pop Culture as a Catalyst for Social and Philosophical Development",
+    excerpt: "Anime, comics, and video games provide “living philosophy”, abstract ideas grounded in emotional and narrative experience.",
+    category: "Society",
+    date: "Nov 18, 2025",
+    author: {
+      name: "Joshua Avilés",
+      title: "B.S. Graduate from the Technological University of Chihuahua BIS",
+      initials: "JA",
+      linkedin: "https://linkedin.com/in/josha07"
+    },
+    content: (
+      <div>
+        <p>
+          Pop culture is often dismissed as entertainment, for audiences often considered as “nerds”, “geeks”, or “weebs”, it shapes how they understand the world. Stories from video games, anime, and comics provide immersive experiences that encourage reflection on social values, interpersonal skills, and philosophical questions. These narratives act as simulations, allowing viewers or players to experiment with moral dilemmas, cultural perspectives, and emotional intelligence in safe but impactful ways.
+        </p>
+        
+        <h3>1. Assertive Communication and Empathy</h3>
+        <p>
+          Narratives like One Piece and Hunter x Hunter emphasize dialogue, negotiation, and understanding others’ perspectives. Characters often navigate complex social hierarchies, confront injustices, and assert their principles without aggression. These stories model empathy and assertiveness simultaneously: one can stand firmly on values while recognizing and responding to others’ emotions.
+        </p>
+        <p>• <b>One Piece</b>: Luffy’s crew continuously resolves conflicts through courage and dialogue, teaching the value of expressing oneself clearly while respecting others’ agency.</p>
+        <p>• <b>Hunter x Hunter</b>: Characters like Kurapika explore revenge and justice, showing the emotional consequences of communication choices.</p>
+
+        <h3>2. Social Wellness and Collective Responsibility</h3>
+        <p>
+          Themes of community and shared responsibility are central in The Last Airbender and Lord of the Rings. These epics illustrate how societies and groups thrive when members consider collective wellbeing alongside individual goals.
+        </p>
+        <p>• <b>The Last Airbender</b>: Aang’s journey demonstrates the importance of balancing personal growth with the welfare of entire nations, promoting social wellness as a virtue.</p>
+        <p>• <b>Lord of the Rings</b>: Fellowship and collaboration emphasize empathy, trust, and solidarity in the face of existential threats, highlighting how teamwork underpins societal resilience.</p>
+        <p>• <b>Star Wars</b>: The rebellion demonstrates how decentralized, value-driven communities mobilize against oppression, while the Jedi highlight both the strengths and limitations of institutional cohesion.</p>
+
+        <h3>3. Liberty, Justice, and Equality</h3>
+        <p>
+          Stories like Attack on Titan, Chainsaw Man, and Across the Spider-Verse engage directly with political and moral questions: oppression, personal freedom, systemic injustice. Through these narratives, audiences reflect on fairness, moral courage, and the value of equitable societies.
+        </p>
+
+        <p>• <b>Attack on Titan</b>: Confronts cycles of oppression and questions what justice truly means in morally gray contexts.</p>
+        <p>• <b>Across the Spider-Verse</b>: Highlights multiversal perspectives, encouraging recognition of inequality and the role of choice in exercising freedom responsibly.</p>
+        <p>• <b>Chainsaw Man</b>: Examines the tension between societal expectations and personal autonomy, often questioning traditional moral codes.</p>
+        <p>• <b>Star Wars</b>: The rise and collapse of the Republic and the emergence of the Empire serve as narrative laboratories for thinking about democratic erosion, authoritarianism, and political courage.</p>
+
+        <h3>4. Hedonism and Philosophical Exploration</h3>
+        <p>
+          Pop culture allows audiences a safe framework for exploring pleasure, desire, and the formation of personal identity. Many contemporary narratives address emotional intimacy, bodily autonomy, and the complexities of developing a healthy relationship with one’s own desires. These works allow audiences to confront questions of hedonism, affection, attachment, and romantic or sexual self-understanding without the risks associated with real-world experiences.
+        </p>
+        <p>• <b>Chainsaw Man</b>: Explores existential desire, mortality, and personal satisfaction under extreme conditions.</p>
+        <p>• <b>Lord of the Rings</b>: Raises questions about attachment, temptation, and ethical restraint, illustrating the philosophical interplay between desire and responsibility.</p>
+        <p>• <b>Star Wars</b>: The Jedi’s doctrine of detachment opens space for debates about emotional intimacy, repression, and the ethics of desire.</p>
+
+        <h3>5. Philosophy in Narrative Form</h3>
+        <p>
+          Anime, comics, and video games provide “living philosophy” — abstract ideas grounded in emotional and narrative experience. Concepts like justice, liberty, and equality are not presented as lectures but as dilemmas characters navigate, giving audiences experiential understanding:
+        </p>
+        <p>• Multi-diverse ethics and identity (Across the Spider-Verse)</p>
+        <p>• Consequences of desire and hedonism (Chainsaw Man)</p>
+        <p>• Moral relativism, the cost of revenge (Hunter x Hunter)</p>
+        <p>• Duty versus freedom (The Last Airbender, One Piece)</p>
+
+        <h3>6. Reflections and Lessons from Popular Narratives</h3>
+        <p>“You should enjoy the little detours to the fullest. Because that’s where you’ll find things more important than what you want.” — Ging Freecss, Hunter × Hunter</p>
+        <p>“When we hit our lowest point, we are open to the greatest change.” — Aang, Avatar: The Last Airbender, The Legend of Korra</p>
+        <p>“Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.” — Yoda, Star Wars</p>
+        <p>“Never thought I’d die fighting side by side with an elf.”, “What about side by side with a friend? — Gimli and Legolas, The Lord of the Rings</p>
+        <p>“Inherited will, the swelling of the changing times, and the dreams of people, these things will never be stopped.” — Gol D. Roger, One Piece</p>
+        <p>“The world is cruel, but it’s also very beautiful.” — Mikasa Ackerman, Attack on Titan</p>
+        <p>“A society that treats people like disposable tools is destined to collapse.” — Makima, Chainsaw Man</p>
+        <p>“With power comes great responsibility” — Benjamin Parker, Spider-Man (2001)</p>
+      </div>
+    )
+  },
+  /* {
+    id: 1,
+    title: "",
+    excerpt: "",
+    category: "",
+    date: "Nov 18, 2025",
+    author: {
+      name: "Joshua Avilés",
+      title: "B.S. Graduate from the Technological University of Chihuahua BIS",
+      initials: "JA",
+      linkedin: "https://linkedin.com/in/josha07"
+    },
+    content: (
+      <div>
+        <p>
+          The USMCA Test Zones initiative draws inspiration from China’s Special Economic Zones, which served as laboratories for reform and innovation before nationwide implementation. These zones demonstrated how localized experimentation could stimulate economic development, attract investment, and generate knowledge that could later be scaled across the country. Similarly, North America can adopt a philosophy of territorial experimentation, using strategically selected regions to pilot initiatives in technology, energy, agriculture, and workforce development before broader adoption.
+        </p>
+        <p>
+          Within this framework, Chihuahua emerges as Mexico’s ideal candidate. The state combines industrial, agricultural, and academic capacities, providing a unique environment where innovation can thrive outside major metropolitan centers. Its geographic position—linking northern trade corridors with central agricultural regions—offers connectivity, access to logistics networks, and institutional flexibility. Chihuahua has a growing manufacturing base, particularly in automotive, aerospace, and electronics industries, which could serve as platforms for testing advanced production technologies and smart logistics solutions. The state’s universities and technical institutes also provide a strong foundation for workforce development programs, applied research, and innovation clusters. In renewable energy, Chihuahua’s solar and wind potential can be leveraged for pilot projects that integrate clean energy production with industrial and agricultural applications. By combining industrial capacity, academic expertise, and renewable energy potential, Chihuahua provides a comprehensive ecosystem for testing and scaling innovative programs.
+        </p>
+        <p>
+          Canada can contribute through its Atlantic provinces and prairie regions, aligning with federal priorities to support development outside major metropolitan areas. The prairie provinces, Manitoba and Saskatchewan offer extensive agricultural expertise and energy infrastructure that can complement pilot initiatives in agri-tech, bioenergy, and clean energy integration. Atlantic provinces such as Nova Scotia, New Brunswick, and Prince Edward Island provide experience in small-scale industrial development, fisheries, and coastal energy projects. These regions are already a focus for federal initiatives aimed at strengthening rural economies, enhancing regional connectivity, and creating local innovation hubs. By pairing these areas with Chihuahua, Canada can participate in knowledge exchange and sector-specific experimentation, focusing on sustainability, technology adoption, and workforce training in regions that mirror Chihuahua’s scale and opportunities.
+        </p>
+        <p>
+          In the United States, participation may be uneven due to differences in regional priorities, federal-level policy focus, and state-level variability. Interior and northern regions such as New Mexico, western Texas, the Upper Midwest, and parts of New England possess industrial, agricultural, and technological capacities compatible with Chihuahua’s ecosystem. Pilot programs could include renewable energy integration, digital logistics networks, advanced manufacturing, and workforce upskilling initiatives. By extending the focus beyond border cities, these regions allow for experimentation in areas with diverse economies, lower population density, and regional flexibility. Coordinating efforts across these U.S. regions can create a network of complementary test zones, capable of collaborating on cross-border initiatives while adapting to local policy environments and priorities.
+        </p>
+        <p>
+          In conclusion, the USMCA Test Zones illustrate how North America can pursue integration through smaller, underutilized regions while complementing existing continental trade agreements. By piloting initiatives in energy, technology, agriculture, and workforce development, these zones act as laboratories for sustainable, inclusive growth. Flexible bilateral and multilateral collaboration at the regional level allows Mexico, Canada, and the United States to advance innovation even amid evolving federal-level policies, emphasizing adaptability, resilience, and regional leadership.
+        </p>
+      </div>
+    )
+  } */
 ]
 
 function App() {
