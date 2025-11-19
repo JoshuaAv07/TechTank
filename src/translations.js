@@ -22,11 +22,11 @@ export const translations = {
       role: "General Director",
       getInTouch: "Get in Touch",
       message1: "Have questions about our research or want to collaborate? Reach out to Joshua Avilés, our contact representative, who can connect you with the right team member or provide information about our current projects and initiatives.",
-      message2: "We welcome partnerships with academic institutions, government agencies, and industry leaders across the North American ecosystem."
+      message2: "We welcome partnerships with academic institutions, government agencies, and industry leaders."
     },
     footer: {
       copyright: "© 2024 TechTank. All rights reserved.",
-      locations: "United States • Mexico • Canada"
+      //locations: "United States • Mexico • Canada"
     }
   },
   es: {
@@ -52,11 +52,11 @@ export const translations = {
       role: "Director General",
       getInTouch: "Ponte en Contacto",
       message1: "¿Tienes preguntas sobre nuestra investigación o quieres colaborar? Comunícate con Joshua Avilés, nuestro representante de contacto, quien puede conectarte con el miembro adecuado del equipo o proporcionar información sobre nuestros proyectos e iniciativas actuales.",
-      message2: "Damos la bienvenida a asociaciones con instituciones académicas, agencias gubernamentales y líderes de la industria en todo el ecosistema norteamericano."
+      message2: "Damos la bienvenida a asociaciones con instituciones académicas, agencias gubernamentales y líderes de la industria."
     },
     footer: {
       copyright: "© 2024 TechTank. Todos los derechos reservados.",
-      locations: "Estados Unidos • México • Canadá"
+      //locations: "Estados Unidos • México • Canadá"
     }
   },
   fr: {
@@ -82,11 +82,11 @@ export const translations = {
       role: "Directeur Général",
       getInTouch: "Entrer en Contact",
       message1: "Vous avez des questions sur nos recherches ou souhaitez collaborer? Contactez Joshua Avilés, notre représentant de contact, qui peut vous mettre en relation avec le bon membre de l'équipe ou vous fournir des informations sur nos projets et initiatives en cours.",
-      message2: "Nous accueillons les partenariats avec des institutions académiques, des agences gouvernementales et des leaders de l'industrie à travers l'écosystème nord-américain."
+      message2: "Nous accueillons les partenariats avec des institutions académiques, des agences gouvernementales et des leaders de l'industrie."
     },
     footer: {
       copyright: "© 2024 TechTank. Tous droits réservés.",
-      locations: "États-Unis • Mexique • Canada"
+      //locations: "États-Unis • Mexique • Canada"
     }
   }
 }
