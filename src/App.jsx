@@ -172,7 +172,7 @@ const articles = [
     title: "Impact of Mitacs Globalink Research Internship in Emerging Clinicians",
     excerpt: "I was particularly inspired by the master’s and PhD students, all of whom were women leading their projects with remarkable dedication...",
     category: "Research",
-    date: "Mar 10, 2024",
+    date: "Oct 20, 2025",
     author: {
       name: "Nancy Ruíz",
       title: "M.D. Graduate, University of Guanajuato",
@@ -265,7 +265,7 @@ const articles = [
     title: "Chihuahua: Building a Global Innovation Ecosystem through Talent",
     excerpt: "Positioned between northern trade corridors and central agricultural regions, Chihuahua offers both geographic connectivity and...",
     category: "Innovation",
-    date: "Oct 22, 2025",
+    date: "Oct 24, 2025",
     author: {
       name: "Joshua Avilés",
       title: "B.S. Graduate from the Technological University of Chihuahua BIS",
@@ -385,7 +385,7 @@ const articles = [
     title: "USMCA: Experimenting Regional Innovation and Integration in North America",
     excerpt: "Just as China’s zones transformed underdeveloped areas into engines of modernization, North America can...",
     category: "Geopolitics",
-    date: "Oct 28, 2025",
+    date: "Nov 09, 2025",
     author: {
       name: "Joshua Avilés",
       title: "B.S. Graduate from the Technological University of Chihuahua BIS",
@@ -412,8 +412,40 @@ const articles = [
       </div>
     )
   },
-  {
+  /* {
     id: 7,
+    title: "",
+    excerpt: "",
+    category: "Academic Mobility",
+    date: "Nov 18, 2025",
+    author: {
+      name: "Valentina Orozco",
+      title: "M.D. Graduate from the University of Antioquia",
+      initials: "JA",
+      linkedin: "https://linkedin.com/in/lvalentinaorozcob"
+    },
+    content: (
+      <div>
+        <p>
+          The USMCA Test Zones initiative draws inspiration from China’s Special Economic Zones, which served as laboratories for reform and innovation before nationwide implementation. These zones demonstrated how localized experimentation could stimulate economic development, attract investment, and generate knowledge that could later be scaled across the country. Similarly, North America can adopt a philosophy of territorial experimentation, using strategically selected regions to pilot initiatives in technology, energy, agriculture, and workforce development before broader adoption.
+        </p>
+        <p>
+          Within this framework, Chihuahua emerges as Mexico’s ideal candidate. The state combines industrial, agricultural, and academic capacities, providing a unique environment where innovation can thrive outside major metropolitan centers. Its geographic position—linking northern trade corridors with central agricultural regions—offers connectivity, access to logistics networks, and institutional flexibility. Chihuahua has a growing manufacturing base, particularly in automotive, aerospace, and electronics industries, which could serve as platforms for testing advanced production technologies and smart logistics solutions. The state’s universities and technical institutes also provide a strong foundation for workforce development programs, applied research, and innovation clusters. In renewable energy, Chihuahua’s solar and wind potential can be leveraged for pilot projects that integrate clean energy production with industrial and agricultural applications. By combining industrial capacity, academic expertise, and renewable energy potential, Chihuahua provides a comprehensive ecosystem for testing and scaling innovative programs.
+        </p>
+        <p>
+          Canada can contribute through its Atlantic provinces and prairie regions, aligning with federal priorities to support development outside major metropolitan areas. The prairie provinces, Manitoba and Saskatchewan offer extensive agricultural expertise and energy infrastructure that can complement pilot initiatives in agri-tech, bioenergy, and clean energy integration. Atlantic provinces such as Nova Scotia, New Brunswick, and Prince Edward Island provide experience in small-scale industrial development, fisheries, and coastal energy projects. These regions are already a focus for federal initiatives aimed at strengthening rural economies, enhancing regional connectivity, and creating local innovation hubs. By pairing these areas with Chihuahua, Canada can participate in knowledge exchange and sector-specific experimentation, focusing on sustainability, technology adoption, and workforce training in regions that mirror Chihuahua’s scale and opportunities.
+        </p>
+        <p>
+          In the United States, participation may be uneven due to differences in regional priorities, federal-level policy focus, and state-level variability. Interior and northern regions such as New Mexico, western Texas, the Upper Midwest, and parts of New England possess industrial, agricultural, and technological capacities compatible with Chihuahua’s ecosystem. Pilot programs could include renewable energy integration, digital logistics networks, advanced manufacturing, and workforce upskilling initiatives. By extending the focus beyond border cities, these regions allow for experimentation in areas with diverse economies, lower population density, and regional flexibility. Coordinating efforts across these U.S. regions can create a network of complementary test zones, capable of collaborating on cross-border initiatives while adapting to local policy environments and priorities.
+        </p>
+        <p>
+          In conclusion, the USMCA Test Zones illustrate how North America can pursue integration through smaller, underutilized regions while complementing existing continental trade agreements. By piloting initiatives in energy, technology, agriculture, and workforce development, these zones act as laboratories for sustainable, inclusive growth. Flexible bilateral and multilateral collaboration at the regional level allows Mexico, Canada, and the United States to advance innovation even amid evolving federal-level policies, emphasizing adaptability, resilience, and regional leadership.
+        </p>
+      </div>
+    )
+  },
+  {
+    id: 8,
     title: "Reflection: Pop Culture as a Catalyst for Social and Philosophical Development",
     excerpt: "Anime, comics, and video games provide “living philosophy”, abstract ideas grounded in emotional and narrative experience.",
     category: "Society",
@@ -483,7 +515,7 @@ const articles = [
         <p>“With power comes great responsibility” — Benjamin Parker, Spider-Man (2001)</p>
       </div>
     )
-  },
+  }, */
   /* {
     id: 1,
     title: "",
